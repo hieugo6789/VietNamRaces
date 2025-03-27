@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VietNamRaces.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7b00de846e6cfce9f73f00dde03f312c7c2ef92")]
 [assembly: System.Reflection.AssemblyProductAttribute("VietNamRaces.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VietNamRaces.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

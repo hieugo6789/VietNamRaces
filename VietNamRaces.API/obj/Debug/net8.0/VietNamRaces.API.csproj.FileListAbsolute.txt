@@ -170,3 +170,4 @@ D:\Source Code\Source code C#\VietNamRaces\VietNamRaces.API\bin\Debug\net8.0\Sys
 D:\Source Code\Source code C#\VietNamRaces\VietNamRaces.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 D:\Source Code\Source code C#\VietNamRaces\VietNamRaces.API\bin\Debug\net8.0\System.Text.Json.dll
 D:\Source Code\Source code C#\VietNamRaces\VietNamRaces.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Source Code\Source code C#\VietNamRaces\VietNamRaces.API\obj\Debug\net8.0\VietNamRaces.API.sourcelink.json

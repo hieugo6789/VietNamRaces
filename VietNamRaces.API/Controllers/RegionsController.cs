@@ -76,7 +76,7 @@ namespace VietNamRaces.API.Controllers
 
         [HttpPost]
         [ValidateModel]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> CreateRegion([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
                 var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
@@ -92,7 +92,7 @@ namespace VietNamRaces.API.Controllers
         [HttpPut]
         [ValidateModel]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> UpdateRegion([FromRoute] Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
                 var regionDomainModel = mapper.Map<Region>(updateRegionRequestDto);
@@ -111,7 +111,7 @@ namespace VietNamRaces.API.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteRegion([FromRoute] Guid id)
         {
             var regionDomainModel = await regionRepository.DeleteAsync(id);
@@ -123,5 +123,7 @@ namespace VietNamRaces.API.Controllers
             var regionDto = mapper.Map<RegionDto>(regionDomainModel);
             return Ok(regionDto);
         }
+
+        
     }
 }

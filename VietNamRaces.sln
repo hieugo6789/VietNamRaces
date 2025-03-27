@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietNamRaces.API", "VietNamRaces.API\VietNamRaces.API.csproj", "{F6753603-5FD2-455D-8186-D3C94F2DCFAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietNamRaces.UI", "VietNamRaces.UI\VietNamRaces.UI.csproj", "{F62844F7-54F4-4294-959A-5684DD6E0CD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F6753603-5FD2-455D-8186-D3C94F2DCFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6753603-5FD2-455D-8186-D3C94F2DCFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6753603-5FD2-455D-8186-D3C94F2DCFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62844F7-54F4-4294-959A-5684DD6E0CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62844F7-54F4-4294-959A-5684DD6E0CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62844F7-54F4-4294-959A-5684DD6E0CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62844F7-54F4-4294-959A-5684DD6E0CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
